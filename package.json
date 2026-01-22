@@ -4,6 +4,7 @@
   "description": "C3 Meetup Scaffolding",
   "main": "index.js",
   "scripts": {
+    "start": "node --run index.js",
     "test": "npx jest",
     "test:watch": "npx jest --watchAll"
   },

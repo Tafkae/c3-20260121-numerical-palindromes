@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node --run index.js",
     "test": "npx jest",
-    "test:watch": "npx jest --watchAll"
+    "test:watch": "npx jest --watchAll",
+    "test:failed": "npx jest --onlyFailures"
   },
   "author": "Ingage Partners",
   "license": "BSD-3-Clause",
